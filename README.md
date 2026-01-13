@@ -1,1 +1,1 @@
-A browser made with ThreadCrawl and hosted with SimpleHost
+A light browser made with ThreadCrawl and hosted with SimpleHost
