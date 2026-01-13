@@ -106,7 +106,7 @@ let allData = [];
 let filteredData = [];
 let currentPage = 1;
 
-fetch("results.json")
+fetch("https://rawcdn.githack.com/prankapple/lightbrowser/75b8ca00853dd2ebe49023d60c71146e40650e38/results.json")
     .then(r => r.json())
     .then(data => {
         allData = data;
@@ -180,3 +180,4 @@ document.getElementById("pageSize").addEventListener("change", () => {
 
 </body>
 </html>
+
